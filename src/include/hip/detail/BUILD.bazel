@@ -1,0 +1,5 @@
+cc_library(
+    name = "detail",
+    hdrs = glob(["*.h"]),
+    visibility = ["//include/hip:__pkg__"],
+)
